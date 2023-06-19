@@ -17,6 +17,12 @@
     font-size: 2vh;
     font-weight: bold;
 }
+
+.hero-image img{
+    height: 90vh;
+    width: 90vw;
+    object-fit: cover;
+}
 /* Rectangle 1 */
 /* 
 position: absolute;
