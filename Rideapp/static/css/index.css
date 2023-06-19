@@ -1,11 +1,21 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+}
 .navbar-nav .nav-item .nav-link{
     margin-left: 10%;
+    font-size: 3vh;
+    font-weight: bold;
 }
 .btn-success{
     padding: 5%;
     width: 15vw;
     margin-top: -1.5%;
+    font-size: 2vh;
+    font-weight: bold;
 }
 /* Rectangle 1 */
 /* 
