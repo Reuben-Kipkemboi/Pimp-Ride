@@ -3,11 +3,23 @@
 
 {% block content %}
 <div class="container-fluid">
-    
-    <div class=" col-md-12 hero-image">
-        <img src="{% static 'images/index.jpg' %}" alt="green sport car">
+    <div class="row">
+        <div class="col-md-1 blob2" >
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#205900;" d="M53.4,-12.7C61.5,7.7,55.2,37.5,35.9,52.3C16.5,67.1,-16,66.9,-34,52.4C-52.1,38,-55.7,9.3,-47.7,-10.9C-39.6,-31.2,-19.8,-43.1,1.4,-43.6C22.6,-44.1,45.2,-33.1,53.4,-12.7Z" transform="translate(100 100)" />
+              </svg>
+        </div>
+        <div class=" col-md-9 hero-image">
+            <img src="{% static 'images/index.jpg' %}" alt="green sport car">
 
+        </div>
+        <div class="col-md-2 blob" >
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#205900" d="M34.4,-45.6C45,-39.7,54.2,-30.2,58.3,-18.7C62.4,-7.2,61.4,6.2,56.6,17.6C51.8,29.1,43.4,38.5,33.3,49.1C23.2,59.6,11.6,71.2,0.6,70.3C-10.3,69.4,-20.7,56.1,-29.8,45.2C-39,34.4,-47,26.1,-55.6,14.5C-64.3,2.9,-73.6,-12,-72.8,-26.5C-72,-41,-61.1,-55,-47.3,-59.9C-33.5,-64.8,-16.7,-60.6,-2.4,-57.3C11.9,-54,23.8,-51.6,34.4,-45.6Z" transform="translate(100 100)" />
+              </svg>
+        </div>
     </div>
+
 
 </div>
 {% endblock content %}
