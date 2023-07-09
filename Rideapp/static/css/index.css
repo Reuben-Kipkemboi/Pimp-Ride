@@ -14,15 +14,31 @@
     margin-left: 10%;
     font-size: 3vh;
     font-weight: bold;
+    color: #205900;
 }
+
 .btn-succes{
     background-color: #205900;
-    color: #000000;
+    color: #ffffff;
     padding: 5%;
     width: 15vw;
     margin-top: -1.5%;
     font-size: 2vh;
     font-weight: bold;
+}
+.btn-succes-reg, .btn-succes-log{
+    background-color: #205900;
+    color: #ffffff;
+    padding: 8%;
+    width: 10vw;
+    margin-top: -1.2%;
+    font-size: 2vh;
+    font-weight: bold;
+
+}
+.btn-succes-reg:hover, .btn-succes-log:hover{
+    background-color: #f3e3af;
+    color: #205900;
 }
 /* #top-image{
     transform: translateY(-100px);
